@@ -1,4 +1,4 @@
-package de.simonstevens.open_mail_app_plus
+package app.istoria.open_mail_app_plus
 
 import android.content.Context
 import android.content.Intent
