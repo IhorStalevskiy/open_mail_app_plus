@@ -23,7 +23,8 @@ flutter:
   plugin:
     platforms:
       android:
-        package: de.simonstevens.open_mail_app_plus
+        package: app.istoria.open_mail_app_plus
         pluginClass: OpenMailAppPlusPlugin
       ios:
+        package: app.istoria.open_mail_app_plus
         pluginClass: OpenMailAppPlusPlugin
