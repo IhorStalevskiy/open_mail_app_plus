@@ -1,4 +1,4 @@
-package com.cuboid.open_mail
+package de.simonstevens.open_mail_app_plus
 
 import android.content.Context
 import android.content.Intent
