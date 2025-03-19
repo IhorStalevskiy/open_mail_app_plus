@@ -18,7 +18,7 @@ class OpenMailAppPlusPlugin : FlutterPlugin, MethodChannel.MethodCallHandler, Ac
   private lateinit var context: Context
 
   override fun onAttachedToEngine(@NonNull flutterPluginBinding: FlutterPlugin.FlutterPluginBinding) {
-    channel = MethodChannel(flutterPluginBinding.binaryMessenger, "open_mail")
+    channel = MethodChannel(flutterPluginBinding.binaryMessenger, "open_mail_app_plus")
     channel.setMethodCallHandler(this)
     context = flutterPluginBinding.applicationContext
   }
